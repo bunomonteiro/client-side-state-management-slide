@@ -1,0 +1,17 @@
+#pitang {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+img.pitang {
+  height: 30px; 
+  width: 95px;
+  opacity: 0.5;
+}
+
+.reveal section img {
+  background: none;
+  border: 0;
+  box-shadow: none;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Client Side State Management</title>
+
+  <link rel="stylesheet" href="./node_modules/reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="./node_modules/reveal.js/css/theme/league.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="pitang">
+    <img class="pitang" src="images/pitang-1.png">
+  </div>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <section>
+            <h2>Client Side State Management</h2>
+            <p class="fragment fade-in">E o <strong>X</strong> da questão.</p>
+        </section>
+        <section>
+            <h2>Bruno Monteiro</h2>
+            <p class="fragment fade-in">Desenvolvedor</p>
+            <img class="pitang fragment fade-in" src="images/pitang-1.png">
+        </section>
+        <section>
+            <h2>Carlos Gomes</h2>
+            <p class="fragment fade-in">Desenvolvedor</p>
+            <img class="pitang fragment fade-in" src="images/pitang-1.png">
+        </section>
+      </section>
+
+      <section>
+        <h2>Por que no cliente?</h2>
+        <ul>
+          <li class="fragment fade-in" data-fragment-index="1">Memória</li>
+          <li class="fragment fade-in" data-fragment-index="2">
+            Novos Arquiteturas
+            <br>
+            <span class="fragment" data-fragment-index="3">
+              <small>Web Farm</small>
+            </span>
+            <span class="fragment" data-fragment-index="4">
+              <small>| Cloud</small>
+            </span>
+          </li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Por que não no cliente?</h2>
+        <ul>
+          <li class="fragment fade-in" data-fragment-index="1">Segurança</li>
+          <li class="fragment fade-in" data-fragment-index="2">
+            Rede
+            <br>
+            <span class="fragment fade-in" data-fragment-index="3">
+              <small>Tráfego de Rede</small>
+            </span>
+            <span class="fragment fade-in" data-fragment-index="4">
+              <small>| Consumo de Dados</small>
+            </span>
+          </li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Técnincas</h2>
+        <ul>
+          <li class="fragment fade-in" data-fragment-index="1">Hidden Field</li>
+          <li class="fragment fade-in" data-fragment-index="2">Query String</li>
+          <li class="fragment fade-in" data-fragment-index="3">Cookie</li>
+          <li class="fragment" data-fragment-index="4">
+            Web Storage
+            <br>
+            <span class="fragment" data-fragment-index="5"><small>SessionStorage</small></span>
+            <span class="fragment" data-fragment-index="6"><small>&</small></span>
+            <span class="fragment" data-fragment-index="7"><small>LocalStorage</small></span>
+          </li>
+          <li class="fragment fade-in" data-fragment-index="8">
+            Custom
+            <br>
+            <span class="fragment fade-in" data-fragment-index="9">
+              <small>ViewState</small>
+            </span>
+            <span class="fragment fade-in" data-fragment-index="10">
+              <small>| o <strong>X</strong> da questão.</small>
+            </span>
+          </li>
+        </ul>
+      </section>
+      
+      <section>
+          <section>
+            <h2>Flux</h2>
+            <p class="fragment fade-in">
+                <img src="images/flux.png">
+              </p>
+          </section>
+          <section>
+              <h2>Redux</h2>
+              <p class="fragment fade-in">
+                <img src="images/redux.png">
+              </p>
+          </section>
+          <section>
+            <h2>Vuex</h2>
+            <p class="fragment fade-in">
+              <img src="images/vuex.png">
+            </p>
+          </section>
+      </section>
+      
+      <section>
+        <h2>Quando Usar?</h2>
+      </section>
+      
+      <section>
+        <h2>Exemplos</h2>
+      </section>
+      
+      <section>
+        <h2>Perguntas?</h2>
+      </section>
+      
+      <section>
+        <h2>Agradecimento</h2>
+      </section>
+    </div>
+  </div>
+
+  <script src="./node_modules/reveal.js/js/reveal.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

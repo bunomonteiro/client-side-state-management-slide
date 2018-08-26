@@ -1,0 +1,19 @@
+{
+  "name": "femugpe",
+  "version": "1.0.0",
+  "description": "Client Side State Management and the X question",
+  "scripts": {
+    "start": "browser-sync start -s --cwd -w --no-inject-changes --no-notify"
+  },
+  "author": {
+    "name": "Bruno Monteiro",
+    "url": "http://www.buno.com.br"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "reveal.js": "^3.7.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6"
+  }
+}
