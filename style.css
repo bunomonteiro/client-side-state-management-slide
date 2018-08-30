@@ -27,3 +27,26 @@
   border: 0;
   box-shadow: none;
 }
+
+.thanks div {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  position: relative;
+}
+
+.thanks div p {
+  align-items: center;
+  display: flex;
+  height: 250px;
+  width: 250px;
+}
+
+.thanks img.femugpe-logo {
+  width: 250px;
+}
+
+.thanks img.pitang-logo {
+  width: 225px;
+}
