@@ -1,13 +1,25 @@
 #pitang {
+  height: 100%;
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  width: 100%;
 }
 
-img.pitang {
-  height: 30px; 
-  width: 95px;
+#pitang img.pitang-top {
+  height: 182px; 
+  left: 2rem;
   opacity: 0.5;
+  position: absolute;
+  top: 2rem;
+  width: 225px;
+}
+
+#pitang img.pitang-bottom {
+  bottom: 40px;
+  height: 45px; 
+  opacity: 0.5;
+  position: absolute;
+  right: 125px;
+  width: 225px;
 }
 
 .reveal section img {
